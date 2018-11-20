@@ -54,6 +54,8 @@
 		return UIViewContentModeScaleAspectFit;
 	} else if ([resizeMode isEqualToString:@"stretch"]) {
 		return UIViewContentModeScaleToFill;
+	} else if ([resizeMode isEqualToString:@"center"]) {
+		return UIViewContentModeCenter;
 	} else {
 		return 0;
 	}
